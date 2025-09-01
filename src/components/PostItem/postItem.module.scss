@@ -1,0 +1,29 @@
+.postItem {
+    margin-top: 100px;
+}
+
+.container {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.text:hover {
+    width: 500px;
+    text-overflow: unset;
+}

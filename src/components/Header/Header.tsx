@@ -1,5 +1,9 @@
 import classes from "./Header.module.scss";
 
 export const Header = () => {
-  return <div className={classes.header}>Header</div>;
+  return (
+    <div className={classes.header}>
+      <p>Хедер</p>
+    </div>
+  )
 };

@@ -23,6 +23,7 @@ export const AddList: FC<Props> = ({ setPosts }) => {
                     ...prev,
                     res.data
                 ]))
+                setInputValue('')
                 console.log('Данные отправлены: ', res.data) 
             })
             .catch((error) => {
